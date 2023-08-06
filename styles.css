@@ -1,0 +1,266 @@
+body {
+	margin:0;
+	padding: 0;
+}
+
+div.main-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* STYLING FOR THE LEFT-SIDEBAR */
+div.left-sidebar img {
+	width: 29px;
+	height: 29px;
+}
+
+div.left-sidebar img.insta {
+	width: 102px;
+	height: 40px;
+	margin-bottom: 16px;
+}
+
+div.left-sidebar img.pic {
+	border-radius: 50%;
+}
+
+/* div.left-sidebar {
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 25px;
+	box-sizing: border-box;
+	padding: 30px 30px 30px 30px;
+	width: 200px;
+	position: fixed;
+	border: 2px solid red;
+}
+*/
+
+div.left-sidebar div.content {
+	display: flex;
+	gap: 5px;
+	align-self: center;
+	margin-top: -46px;
+	margin-left: -60px;
+	width: 60px;
+	height: 60px;
+	justify-content:;
+}
+
+div.left-sidebar div.content p:hover {
+	cursor: pointer;
+	background-color: #C0C0C0;
+	padding: 6px 2px 6px 2px;
+	opacity: 2;
+}
+
+div.left-sidebar a:hover {
+	background-color: ;
+}
+
+div.left-sidebar {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	padding: 30px;
+	width: 20%;
+	max-width: 500px;
+	position: fixed;
+}
+
+div.left-sidebar::after {
+	content:"";
+	width: 2px;
+	height: 10004px;
+	background-color: #D3D3D3;
+	position: fixed;
+	right: 1016px;
+	top: 0;
+}
+
+div.content p span {
+	font-weight: bold;
+}
+
+/* STYING FOR THE MAIN-CONTENT */
+div.main-content {
+	width: 80%;
+	max-width: 900px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+main hr {
+	display: flex;
+	width: 100%;
+	background-color: red;
+	color: red;
+}
+
+main div.comment-sect a {
+	text-decoration: none;
+}
+
+div.main-content nav {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-direction: row;
+	overflow-x: scroll;
+	width: 650px;
+	position: relative;
+}
+
+div.main-content nav::-webkit-scrollbar {
+	position: absolute;
+	top: 60px;
+}
+
+div.main-content nav div.block {
+	font-size: 12px;
+	font-family: "apple-syytem", 'BlinkMacSystem';
+	text-align: left;
+	margin-left: -60px;
+}
+
+div.main-content main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	margin:0 100px 0 100px;
+	position: relative;
+}
+
+div.main-content nav img {
+	width: 56px;
+	height: 56px;
+	padding-bottom: 6px;
+	margin: 20px 10px;
+	border-radius: 50%;
+}
+
+div.main-content main img.small {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+}
+
+div.main-content main img.img {
+	position: absolute;
+	top: 9px;
+	left: 15px;
+}
+
+div.main-content main img.icon {
+	width: 24px;
+	height: 24px;
+}
+
+div.main-content main img {
+	width:500px;
+	height: 500px;
+	padding: 10px 0;
+}
+
+main div.stand-alone {
+	display: flex;
+	padding: 4px 8px 4px 8px;
+	position: relative;
+	width: 100%;
+}
+
+div.motivate-post div.stand-alone img {
+	width: 20px;
+	height: 20px;
+}
+
+main div.stand-alone p {
+	margin-top: 0;
+	margin-bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 10px;
+}
+
+/* STYLING FOR THE RIGHT-SIDEBAR */
+div.right-sidebar {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 20%;
+	max-width: 900px;
+	padding: 30px;
+}
+
+div.right-sidebar aside div.top-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+div.top-section img {
+	border-radius: 50%;
+}
+
+div.top-section div.user p {
+	text-align: start;
+	width: 100px;
+	margin-top: 0;
+}
+
+div.top-section div.user {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+div.bottom-section div.two-column {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div.two-column p.align {
+	width: 70px;
+	text-align: start;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+div.left-align {
+	margin-bottom: 20px;
+}
+
+div.right-sidebar aside img {
+	width:56px;
+	height: 56px;
+}
+
+div.right-sidebar aside img.small {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+}
+
+/* STYLING FOR THE FOOTER */
+footer ul.foot {
+	display: flex;
+	list-style: none;
+	width: 20%;
+	max-width: 900px;
+}
+
+footer ul.foot a {
+	text-decoration: none;
+
+}
