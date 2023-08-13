@@ -304,10 +304,52 @@ p.time{
 	margin: auto 20px 10px 20px;
 	height: 400px;
 	display: flex;
-	position: absolute;
+	position: ;
 	top: 0;
 	right: 0;
 	overflow: hidden;
 	z-index: -1;
 	width: 40%;
+}
+
+.two-col{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 20px;
+}
+
+.main-prof{
+	width: 50%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.main-prof img{
+	width: 56px;
+	height: 56px;
+	border-radius: 50%
+}
+
+.name-prof{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.name-prof .name{
+	margin-top: 0;
+}
+
+.name-prof .user{
+	margin-bottom: 0;
+}
+
+.mode{
+	display: flex;
+	justify-content: flex-end;
+	align-items: ;
+	width: 100%;
 }
